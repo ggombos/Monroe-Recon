@@ -1,0 +1,9 @@
+FROM monroe/base
+
+MAINTAINER reconmonroe@elte.hu 
+
+COPY files/* /opt/monroe/
+
+RUN tar -xvf /opt/monroe/scamper-compiled-on-monroe-node.tar.gz
+
+CMD /scamper-cvs-20161204a/scamper/scamper -R server:9999

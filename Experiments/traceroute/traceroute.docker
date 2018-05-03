@@ -1,0 +1,7 @@
+FROM monroe/base
+
+MAINTAINER reconmonroe@elte.hu 
+
+COPY files/* /opt/monroe/
+
+ENTRYPOINT ["dumb-init", "--", "/usr/bin/python", "/opt/monroe/experiment.py"]
