@@ -1,7 +1,7 @@
 
 # Experiment (Youtube)
 In this measurement we check the policies of the internet providers. We analyzed the youtube videos traffic on different interfaces. We used the pytomo tools (https://github.com/LouisPlisso/pytomo) for the measurement. This tool simulates the behavior of the users when it watches the youtube. The default work process is download the most popular videos and download the 30 sec from each and store the result in a databases. The tool is written in python, and it is open-source. We extended it with a parameter to change the default interface. The pytomo uses socket for downloading. We changed this socket to can use different IP address:
-The default values are (can be overridden by a /monroe/config):
+
 ```
 {
         true_socket = socket.socket
