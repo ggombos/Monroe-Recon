@@ -64,11 +64,12 @@ def monroe_dns_rewriter(ip):
 
 ## Videos
 
-For measurement we used 4 youtube videos. We download 
-a popular short video: ‘First Look at Nontendo Labo’ (https://www.youtube.com/watch?v=P3Bd3HUMkyU) duration: ~2:52, 
-a popular long video: ‘Oscar nominations 2018 announced for the 90th Academy Awards | ABC News’ (https://www.youtube.com/watch?v=jdSUea1CEPc) duration: ~54:50, 
-a non-popular short video: ‘Az M1 híradóban a migránsos videó’ (http://www.youtube.com/watch?v=rjf94G9HFkU) duration: ~3:01 and 
-a non-popular long video: ‘146. Der Trucker .A kamionos. S2 E3’ (http://www.youtube.com/watch?v=w5k7A7vuVic) duration: ~1:00:59. 
+For measurement we used 4 youtube videos:
+* a popular short video: ‘First Look at Nontendo Labo’ (https://www.youtube.com/watch?v=P3Bd3HUMkyU) duration: ~2:52, 
+* a popular long video: ‘Oscar nominations 2018 announced for the 90th Academy Awards | ABC News’ (https://www.youtube.com/watch?v=jdSUea1CEPc) duration: ~54:50, 
+* a non-popular short video: ‘Az M1 híradóban a migránsos videó’ (http://www.youtube.com/watch?v=rjf94G9HFkU) duration: ~3:01 and 
+* a non-popular long video: ‘146. Der Trucker .A kamionos. S2 E3’ (http://www.youtube.com/watch?v=w5k7A7vuVic) duration: ~1:00:59. 
+
 We downloaded from each video the first 120 seconds. 
 
 
